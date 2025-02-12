@@ -5,7 +5,7 @@ import "./yes.css";
 
 function Yes() {
   return (
-    <div className="container yay">
+    <div className="yes-container yay">
       <div> YESSSSS YAYYYY WOOOOOOO </div>
       <div> this is the best day of my life!!!</div>
       <div> ilyyyyy </div>

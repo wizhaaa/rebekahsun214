@@ -80,15 +80,15 @@ function App() {
   };
 
   const pleases = Array.from({length: 100}, (_, index) => (
-    <span key={index}>pwease 🥺</span>
+    <span key={index}> 🙏 pwease 🙏🥺</span>
   ));
   if (!yes) {
     return (
-      <div>
+      <div className="page">
         <div className="hello"> herro rebekah... 👩🏻‍❤️‍💋‍👩🏻 </div>
         <img src={shy} width="150" />
         <div className="container">
-          <div className="q"> Will u be my valentine's? </div>
+          <div className="q"> Will u be my Valentine's? </div>
         </div>
         <div className="subtitle"> {pleases} </div>
         <div className="controls">

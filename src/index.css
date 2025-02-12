@@ -19,10 +19,14 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   min-height: 100vh;
-  max-width: 100%;
   width: 100%;
   overflow: visible;
   cursor: url("assets/paw.cur"), auto;
+}
+
+.page {
+  width: 100%;
+  max-width: 600px;
 }
 
 .container {
@@ -30,17 +34,19 @@ body {
   flex-wrap: wrap;
   width: 100%;
   max-width: 100%;
-  overflow: visible;
+  padding-bottom: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 .q {
   font-size: 3.2em;
   font-weight: 700;
+  line-height: 1.4em;
   overflow-wrap: break-word;
   white-space: normal;
   overflow-wrap: break-word;
-  width: 100%;
-  max-width: 100%;
+  max-width: 900px;
 }
 
 button {
