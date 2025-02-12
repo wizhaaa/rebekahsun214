@@ -1,7 +1,7 @@
 // import {useState} from "react";
 
 import "./App.css";
-import "./Yes.css";
+import "./yes.css";
 
 function Yes() {
   return (
