@@ -23,7 +23,9 @@ function App() {
     "bruh",
     "but i love u",
   ];
-  const [abs, setAbs] = useState("relative");
+  type Position = "absolute" | "relative" | "fixed" | "sticky" | "static";
+
+  const [abs, setAbs] = useState<Position>("relative");
 
   const [no, setNo] = useState("no 😡");
   const [i, setI] = useState(0);
