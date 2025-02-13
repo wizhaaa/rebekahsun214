@@ -90,7 +90,7 @@ function App() {
         <div className="container">
           <div className="q"> Will u be my Valentine's? </div>
         </div>
-        <div className="subtitle"> {pleases} </div>
+        <div className="subtitle sliding-text"> {pleases} </div>
         <div className="controls">
           <button
             className="yes"

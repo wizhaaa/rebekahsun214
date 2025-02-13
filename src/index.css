@@ -101,3 +101,19 @@ button {
 
   overflow-x: hidden;
 }
+
+/* The sliding text */
+.sliding-text {
+  display: inline-block;
+  animation: slide 120s linear infinite; /* Animation properties */
+}
+
+/* Keyframes for the sliding animation */
+@keyframes slide {
+  0% {
+    transform: translateX(0%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to the left */
+  }
+}
