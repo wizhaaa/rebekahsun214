@@ -85,6 +85,9 @@ function App() {
   if (!yes) {
     return (
       <div className="page">
+        <audio autoPlay>
+          <source src="circus.mp3" type="audio/mpeg"></source>
+        </audio>
         <div className="hello"> herro rebekah... 👩🏻‍❤️‍💋‍👩🏻 </div>
         <img src={shy} width="150" />
         <div className="container">
